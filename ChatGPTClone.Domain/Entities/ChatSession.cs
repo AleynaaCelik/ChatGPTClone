@@ -1,5 +1,6 @@
 ﻿using ChatGPTClone.Domain.Common;
 using ChatGPTClone.Domain.Enums;
+using ChatGPTClone.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
