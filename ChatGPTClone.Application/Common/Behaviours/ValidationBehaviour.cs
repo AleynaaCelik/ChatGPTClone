@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FluentValidation;
+using MediatR;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -37,7 +39,7 @@ namespace ChatGPTClone.Application.Common.Behaviours
 
             // Hata varsa exception fırlat
             if (failures.Any())
-                throw new ValidationException(failures);
+                throw new FluentValidation.ValidationException(failures);
 
             // Hata yoksa sonraki işleme geç
             return await next();
