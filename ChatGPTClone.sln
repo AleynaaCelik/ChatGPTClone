@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A2F3418-CDFC-4D2D-BBBC-61B5A76E7C4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTClone.Domain", "ChatGPTClone.Domain\ChatGPTClone.Domain.csproj", "{D06C3852-54A5-457C-89FE-7764D19DA240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTClone.Application", "ChatGPTClone.Application\ChatGPTClone.Application.csproj", "{0F835760-9AF2-47ED-8C32-B6198934555B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +19,16 @@ Global
 		{D06C3852-54A5-457C-89FE-7764D19DA240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D06C3852-54A5-457C-89FE-7764D19DA240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D06C3852-54A5-457C-89FE-7764D19DA240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F835760-9AF2-47ED-8C32-B6198934555B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F835760-9AF2-47ED-8C32-B6198934555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F835760-9AF2-47ED-8C32-B6198934555B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F835760-9AF2-47ED-8C32-B6198934555B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D06C3852-54A5-457C-89FE-7764D19DA240} = {4A2F3418-CDFC-4D2D-BBBC-61B5A76E7C4E}
+		{0F835760-9AF2-47ED-8C32-B6198934555B} = {4A2F3418-CDFC-4D2D-BBBC-61B5A76E7C4E}
 	EndGlobalSection
 EndGlobal
