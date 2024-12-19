@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTClone.Domain", "Chat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTClone.Application", "ChatGPTClone.Application\ChatGPTClone.Application.csproj", "{0F835760-9AF2-47ED-8C32-B6198934555B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTClone.Persistence", "ChatGPTClon.Persistence\ChatGPTClone.Persistence.csproj", "{21146E96-1326-4BF2-B45D-12C93E57CDD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{0F835760-9AF2-47ED-8C32-B6198934555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F835760-9AF2-47ED-8C32-B6198934555B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F835760-9AF2-47ED-8C32-B6198934555B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21146E96-1326-4BF2-B45D-12C93E57CDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21146E96-1326-4BF2-B45D-12C93E57CDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21146E96-1326-4BF2-B45D-12C93E57CDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21146E96-1326-4BF2-B45D-12C93E57CDD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D06C3852-54A5-457C-89FE-7764D19DA240} = {4A2F3418-CDFC-4D2D-BBBC-61B5A76E7C4E}
 		{0F835760-9AF2-47ED-8C32-B6198934555B} = {4A2F3418-CDFC-4D2D-BBBC-61B5A76E7C4E}
+		{21146E96-1326-4BF2-B45D-12C93E57CDD1} = {4A2F3418-CDFC-4D2D-BBBC-61B5A76E7C4E}
 	EndGlobalSection
 EndGlobal
