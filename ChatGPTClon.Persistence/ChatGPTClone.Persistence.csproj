@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ChatGPTClone.Domain\ChatGPTClone.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>
