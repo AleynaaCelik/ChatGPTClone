@@ -1,0 +1,6 @@
+@ChatGPTClone.WasmClient_HostAddress = http://localhost:5126
+
+GET {{ChatGPTClone.WasmClient_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
