@@ -1,6 +1,8 @@
 ﻿using ChatGPTClone.Application.Features.ChatSessions.Commands.Create;
 using ChatGPTClone.Application.Features.ChatSessions.Commands.CreateRange;
 using ChatGPTClone.Application.Features.ChatSessions.Commands.Remove;
+using ChatGPTClone.Application.Features.ChatSessions.Queries.GetAll;
+using ChatGPTClone.Application.Features.ChatSessions.Queries.GetById;
 using ChatGPTClone.WebApi.Filters;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
