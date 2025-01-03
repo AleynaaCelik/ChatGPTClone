@@ -2,6 +2,7 @@
 using ChatGPTClone.Application.Features.Auth.Commands.RefreshToken;
 using ChatGPTClone.Application.Features.Auth.Commands.Register;
 using ChatGPTClone.Application.Features.Auth.Commands.ReSendEmailVerificationEmail;
+using ChatGPTClone.Application.Features.Auth.Commands.VerifyEmail;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
