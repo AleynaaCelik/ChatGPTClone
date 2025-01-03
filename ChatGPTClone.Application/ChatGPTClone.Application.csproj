@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\ChatSessions\Queries\GetAll\ChatSessionGetAllQueryHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Features\ChatSessions\Queries\GetAll\ChatSessionGetAllQueryHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
@@ -16,10 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChatGPTClone.Domain\ChatGPTClone.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\ChatSessions\Queries\" />
   </ItemGroup>
 
 </Project>
